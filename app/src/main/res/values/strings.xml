@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Mind</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hint_add_card_name">Create a Card</string>
+    <string name="hint_add_card_description">Card Description</string>
+    <string name="add_card_title">Add new card</string>
+    <string name="positive_button_create">Create</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="created_by">Created by </string>
+
+    <string name="pager_title_home">Home</string>
+    <string name="pager_title_discover">Discover</string>
+    <string name="pager_title_bookmark">Bookmark</string>
+    <string name="pager_title_profile">Profile</string>
+
+
+</resources>
