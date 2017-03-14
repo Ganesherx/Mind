@@ -2,14 +2,17 @@ package com.example.ganesh.mind.MainScreen;
 
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
+import android.support.v4.app.DialogFragment;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.widget.Toolbar;
+import android.view.View;
 
 import com.example.ganesh.mind.Bookmark.BookmarkFragment;
 import com.example.ganesh.mind.Discover.DiscoverFragment;
+import com.example.ganesh.mind.Home.AddCardDialogFragment;
 import com.example.ganesh.mind.Home.HomeFragment;
 import com.example.ganesh.mind.Profile.ProfileFragment;
 import com.example.ganesh.mind.R;
@@ -94,6 +97,13 @@ public class MainActivity extends BaseActivity {
         tabLayout.getTabAt(2).setIcon(tabIcons[2]);
         tabLayout.getTabAt(3).setIcon(tabIcons[3]);
     }
+
+    public void showAddCardDialog(View view) {
+        /* Create an instance of the dialog fragment and show it */
+        DialogFragment dialog = AddCardDialogFragment.newInstance();
+        dialog.show(MainActivity.this.getSupportFragmentManager(), "AddCardDialogFragment");
+    }
+
 
 
     public class SectionPagerAdapter extends FragmentStatePagerAdapter {

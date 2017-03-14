@@ -19,12 +19,22 @@
         <item name="backgroundTint">@color/colorPrimary</item>
     </style>
 
-    <style name="CardItemText">
-        <item name="android:textColor">@color/light_black</item>
-        <item name="android:textSize">@dimen/card_item_text_size</item>
+    <style name="CardTitleText">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/card_title_text_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:paddingTop">@dimen/padding_top_for_single_avtive_card</item>
+        <item name="android:fontFamily">Roboto Regular</item>
+
+    </style>
+
+    <style name="CardDescriptionText">
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:textSize">@dimen/card_desc_tetx_size</item>
         <item name="android:layout_marginBottom">4dp</item>
         <item name="android:layout_marginTop">4dp</item>
-        <item name="android:textStyle">bold</item>
+        <item name="android:textStyle">normal</item>
+
     </style>
 
 

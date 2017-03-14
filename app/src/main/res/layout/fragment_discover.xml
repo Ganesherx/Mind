@@ -4,11 +4,5 @@
     android:layout_height="match_parent"
     tools:context="com.example.ganesh.mind.Discover.DiscoverFragment">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Apple"
-        android:textSize="40dp"
-        android:textStyle="bold" />
 
 </FrameLayout>
